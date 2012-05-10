@@ -1,4 +1,4 @@
-obj-m += kbd_notifier.o
+obj-m += logger.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
